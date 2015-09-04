@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.1.0'
 gem 'devise'
+gem 'doorkeeper'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
