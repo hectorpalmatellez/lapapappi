@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   namespace :api, constraints: { format: :json } do
     resources :spots
+    resources :users, only: :create
   end
 end
